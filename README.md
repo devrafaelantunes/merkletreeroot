@@ -1,21 +1,31 @@
 # MerkleTreeRoot
 
-**TODO: Add description**
+This application computes the merkle tree root corresponding to a set of transactions as fast 
+and efficiently as possible.
 
-## Installation
+## Getting Started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `merkle_tree_root` to your list of dependencies in `mix.exs`:
+### Installing
 
-```elixir
-def deps do
-  [
-    {:merkle_tree_root, "~> 0.1.0"}
-  ]
-end
-```
+* Clone the project
+* Run `mix deps.get`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/merkle_tree_root](https://hexdocs.pm/merkle_tree_root).
+### Executing program
 
+* Run `iex -S mix` to execute the program
+* To compute the merkle tree root, use the `MerkleTreeRoot.start/1` function. For more info,
+check the module's documentation. 
+
+### Running the unit tests
+
+* Run `mix test`
+
+## Authors
+
+- Rafael Antunes
+- dev@rafaelantun.es
+
+## Version History
+
+* 0.1
+    * Initial Release
